@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+    width: auto;
+    height: 200vh;
+}
+/*début partie 1*/
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 0.5vh;
+}
+.logo{
+    margin-left: 5vh;
+    height: 8vw;
+}
+.nav{
+    flex-grow: 1;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.nav li{
+    text-align: right;
+    margin: 3vw;
+}
+.nav li:hover{
+    color: red;
+}
+/*fin partie 1 logo et barre navigation*/
+
+#grand-image{
+    display: block;
+    width: auto;
+    height: 50%;
+    background: url(img/Rectangle\ 48BG\ Slide\ \(1\).png);
+    background: linear-gradient(rgb(61, 43, 43));
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.food-app{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.text{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.t-x{
+    display: flex;
+    font-size: 2vw;
+    margin-left: 30%;
+}
+
+.ios{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;    
+    justify-content: center;
+    align-items: center;
+}
+.os1,.os2{
+    border: 1vh solid red;
+    background-color: red;
+    height: 2.5vw;
+    width: 17vh;
+    border-radius: 30px;
+    text-align: center;
+}
+.os2{
+    margin-left: 5vw;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vw;
+}
+.index2{
+    background-size: contain;
+    width: 40%;
+}
+#barre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    width: 70%;
+    margin-left: 15%;
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.index3{
+    background-size: contain;
+    width: 40%;
+    margin-left: 10vh;
+}
+#partie3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -41vw;
+    text-align: justify;
+    margin-left: 50vw;
+    line-height: 4vh;
+
+}
+.text1,.text4{
+    color: red;
+    font-size: 2vw;
+}
+.text2{
+    color: rgb(28, 27, 36);
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+.text3{
+    font-size: 2vw;
+    font-weight: 100;
+}
+#partie4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.text-p4{
+    position: absolute;
+    margin-left: -100%;
+    margin-top: 40%;
+}
+.index4{
+    background-size: contain;
+    margin-left: 2vh;
+    width: 130%;
+}
+#last-partie{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo-f{
+    margin-left: -80%;
+    height: 8vw;
+}
+.id-social{
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 4vw;
+}
+.cpr{
+    margin-left: 40%;
+    margin-top: 5vw;
+}
