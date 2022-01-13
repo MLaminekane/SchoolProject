@@ -1,23 +1,28 @@
 body{
     background-color: white;
-    width: auto;
     height: 200vh;
 }
-/*début partie 1*/
-#section1{
-    display: flex;
-    flex-wrap: wrap;
+body, #section1{
     width: auto;
+}
+#section1, .nav, .t-x, .ios, .index, #barre, #partie3, #partie4, #last-partie{
+    display: flex;
+} 
+#section1{
+    flex-wrap: wrap;
     margin-top: 0.5vh;
+}
+.logo, .logo-f{
+    height: 8vw;
 }
 .logo{
     margin-left: 5vh;
-    height: 8vw;
+}
+.nav, .ios{
+    list-style-type: none;
 }
 .nav{
     flex-grow: 1;
-    display: flex;
-    list-style-type: none;
     justify-content: flex-end;
 }
 .nav li{
@@ -27,45 +32,44 @@ body{
 .nav li:hover{
     color: red;
 }
-/*fin partie 1 logo et barre navigation*/
-
 #grand-image{
-    display: block;
-    width: auto;
     height: 50%;
     background: url(img/Rectangle\ 48BG\ Slide\ \(1\).png);
     background: linear-gradient(rgb(61, 43, 43));
     background-repeat: no-repeat;
+}
+#grand-image,.index2,.index3,.index4{
     background-size: contain;
 }
-.food-app{
-    text-align: center;
+#grand-image,.text{
+    display: block;
+}
+.food-app, .text, .ios{
     color: white;
+}
+.food-app, .text,.os1,.os2, h1{
+    text-align: center;
+}
+.food-app, .t-x,.text1,.text4,.text3{
     font-size: 2vw;
     font-weight: 600;
 }
 .text{
-    text-align: center;
     font-size: 4vw;
-    color: white;
     font-weight: bold;
-    display: block;
-    justify-content: center;
+}
+.text,.ios,.index,#barre,.id-social{
     align-items: center;
+} 
+.text,.ios,.index,#barre,#partie4{
+    justify-content: center;
 }
 .t-x{
-    display: flex;
-    font-size: 2vw;
     margin-left: 30%;
 }
 
-.ios{
-    list-style-type: none;
-    display: flex;
+.ios,#last-parti{
     justify-content: space-around;
-    color: white;    
-    justify-content: center;
-    align-items: center;
 }
 .os1,.os2{
     border: 1vh solid red;
@@ -73,53 +77,39 @@ body{
     height: 2.5vw;
     width: 17vh;
     border-radius: 30px;
-    text-align: center;
 }
 .os2{
     margin-left: 5vw;
 }
 .index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: -5vw;
 }
 .index2{
-    background-size: contain;
     width: 40%;
 }
 #barre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid whitesmoke;
     background: whitesmoke;
     width: 70%;
     margin-left: 15%;
 }
 h1{
-    text-align: center;
     font-size: 3vw;
 }
-
 .index3{
-    background-size: contain;
     width: 40%;
     margin-left: 10vh;
 }
 #partie3{
-    display: flex;
     flex-direction: column;
     position: relative;
     top: -41vw;
     text-align: justify;
     margin-left: 50vw;
     line-height: 4vh;
-
 }
 .text1,.text4{
     color: red;
-    font-size: 2vw;
 }
 .text2{
     color: rgb(28, 27, 36);
@@ -127,15 +117,10 @@ h1{
     font-weight: 900;
 }
 .text3{
-    font-size: 2vw;
     font-weight: 100;
 }
 #partie4{
-    display: flex;
-    justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
-
 }
 .text-p4{
     position: absolute;
@@ -143,26 +128,20 @@ h1{
     margin-top: 40%;
 }
 .index4{
-    background-size: contain;
     margin-left: 2vh;
     width: 130%;
 }
 #last-partie{
-    display: flex;
-    justify-content: space-around;
     align-items: flex-start;
     justify-content: flex-start;
 }
 .logo-f{
     margin-left: -80%;
-    height: 8vw;
 }
 .id-social{
-    align-items: center;
-    margin-left: 40%;
     margin-top: 4vw;
 }
-.cpr{
+.cpr,.id-social{
     margin-left: 40%;
     margin-top: 5vw;
 }
