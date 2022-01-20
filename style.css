@@ -71,6 +71,8 @@ body, #section1{
 .t-x{
     margin-left: 33%;
     font-weight: 100;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .os1{
     border: 1vh solid red;
@@ -130,6 +132,8 @@ h1{
 }
 .text3{
     font-weight: 100;
+    font-family: 'Exo', sans-serif;
+font-family: 'IBM Plex Serif', serif;
 }
 #partie4{
     flex-direction: row;
