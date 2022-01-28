@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: gainsboro;
     height: 200vh;
 }
 body, #section1{
@@ -40,6 +40,10 @@ body, #section1{
 
 #grand-image,.index2,.index3,.index4{
     background-size: contain;
+}
+.index4{
+    display: flex;
+    width: 100%;
 }
 #grand-image,.text{
     display: block;
@@ -133,7 +137,17 @@ h1{
 .text3{
     font-weight: 100;
     font-family: 'Exo', sans-serif;
-font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Serif', serif;
+}
+.text11, .text22, .text33{
+    margin-left: -20vw;
+}
+.text1, .text2, .text3{
+    line-height: 4vw;
+}
+.text22{
+    display: flex;
+    line-height: 3vw;
 }
 #partie4{
     flex-direction: row;
