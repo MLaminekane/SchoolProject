@@ -1,16 +1,9 @@
 body{
     background-color: gainsboro;
-    height: 200vh;
-}
-body, #section1{
-    width: auto;
 }
 #section1, .nav, .t-x, .ios, .index, #barre, #partie3, #partie4, #last-partie{
     display: flex;
 } 
-#section1{
-    margin-top: 0.5vh;
-}
 .logo, .logo-f{
     height: 9vw;
 }
@@ -21,17 +14,17 @@ body, #section1{
     list-style-type: none;
 }
 .nav{
-    flex-grow: 1;
     justify-content: flex-end;
+    flex-grow: 1;
 }
 .nav li{
     margin: 3vw;
     font-size: 1.5vw;
 }
-.nav li:hover{
+
+.home{
     color: red;
 }
-
 #grand-image{
     height: 42vw;
     background-repeat: no-repeat;
@@ -73,6 +66,9 @@ body, #section1{
 .text,.ios,.index,#barre,#partie4{
     justify-content: center;
 }
+body, #section1{
+    width: 100%;
+}
 .t-x{
     margin-left: 33%;
     font-weight: 100;
@@ -104,7 +100,7 @@ body, #section1{
     width: 40%;
 }
 #barre{
-    border: 1px solid whitesmoke;
+    border: 1px solid ;
     background: whitesmoke;
     width: 70%;
     margin-left: 15%;
@@ -119,10 +115,8 @@ h1{
 #partie3{
     flex-direction: column;
     position: relative;
-    top: -41vw;
-    text-align: justify;
+    top: -45vw;
     margin-left: 50vw;
-    line-height: 4vh;
 }
 .text-p4{
     margin-right: 25 vw;
@@ -162,25 +156,19 @@ h1{
     margin-left: 2vh;
     width: 130%;
 }
-#last-partie{
-    align-items: flex-start;
-    justify-content: flex-start;
-}
 .logo-f{
     margin-left: -85%;
-}
-.id-social{
-    margin-top: 4vw;
 }
 .cpr,.id-social{
     margin-left: 40%;
     margin-top: 5vw;
 }
+
 .index2{
-    animation: drop 4s ease;
+    animation: animation 4s ease;
 }
 
-@keyframes drop{
+@keyframes animation{
     0% {
         opacity: 0;
         transform: translateY(-80px);
