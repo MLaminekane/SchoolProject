@@ -2,11 +2,40 @@ html{
     font-size: 15px;
 }
 main{
+    display: flex;
+    flex-direction: column;
     border: 1px solid red;
-    height: 98vh;
+    height: 95vh;
     padding: 0.5rem;
 }
 header{
     border: 1px solid blue;
-    height: 25%;
+    flex: 1;
+}
+main section:first-child{
+    border: 1px solid peru;
+    height: 45vh;
+    margin-top: 0.2rem;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    border: 1px solid green;
+    flex: 1;
+}
+main section section{
+    border: 1px solid gray;
+    flex: 3;
+}
+main section section:first-child{
+    border: 1px solid black;
+    height: 20vh;
+}
+main section section:last-child{
+    border: 1px solid purple;
+}
+footer{
+    border: 1px solid olive;
+    flex: 1;
 }
