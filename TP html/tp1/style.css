@@ -1,0 +1,12 @@
+html{
+    font-size: 15px;
+}
+main{
+    border: 1px solid red;
+    height: 98vh;
+    padding: 0.5rem;
+}
+header{
+    border: 1px solid blue;
+    height: 25%;
+}

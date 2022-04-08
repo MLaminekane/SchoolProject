@@ -1,0 +1,90 @@
+body{
+    background-color: moccasin;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid moccasin;
+    border-bottom-color: black;
+    height: 8vw;
+    margin: auto;    
+}
+.logo{
+    margin-right: 70%;
+    background-image: url(img/WhatsApp\ Image\ 2022-04-07\ at\ 02.50.22.jpeg);
+    border: 1px solid ;
+    width: 10%;
+    height: 15vh;
+   
+}
+.home{
+    color: red;
+    text-decoration: underline;
+}
+.navbar{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+}
+.navbar, p{
+    margin: 1vh;
+    margin-top: 5%;
+}
+.image{
+    margin-top: 10px;
+    border: 1px solid ;
+    border-color: black;
+    width: auto;
+    height: 13vw;
+    background-image: url(img/WhatsApp\ Image\ 2022-04-07\ at\ 02.50.22\ \(2\).jpeg);
+}
+
+.partie2{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    border: 2px solid transparent;
+    height: 50vw;
+    width: 98%;
+}
+.div1{
+    border: 1px solid transparent;
+    width: 60%;
+    height: 47vw;
+    margin-top: 1vh;    
+}
+.div2{
+    border: 1px solid transparent;
+    width: 25%;
+    height: 40vw;
+    margin-top: 1vh;  
+    background-color: #555;  
+}
+.div2, p{
+    font-size: 2vh;
+    text-align: justify;
+}
+.p1{
+    color: white;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 30px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 15%;
+}
+.partie2, p{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.8vh;
+    text-justify: auto;
+    text-align: justify;
+}
+.titre{
+    font-size: 2vw;
+}
