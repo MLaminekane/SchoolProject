@@ -73,12 +73,6 @@ main section div:nth-child(2) div div section:nth-child(2){
     height: 10vh;
     width: 30vh;
 }
-
-
-
-
-
-
 section{
     border: green var(--border-box);
     height: 60%;    
@@ -111,11 +105,6 @@ main section div:nth-child(3){
     margin: auto;
     margin: 0.5rem;
 }
-
-
-
-
-
 footer{
     border: blue var(--border-box);
     height: 13%;    

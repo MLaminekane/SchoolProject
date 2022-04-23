@@ -31,7 +31,7 @@ body main nav div:first-child{
 body main nav div:last-child{
     border: var(--border-box)  ;
     height: 3em;
-    
+    text-decoration: none;
     width: 50%;
     display: flex;
     margin: auto;
@@ -39,4 +39,75 @@ body main nav div:last-child{
     justify-content: space-evenly;
     color:  var(--color-box);
     font-size: var(--font-size-box);
+}
+body main nav div p a{
+    text-decoration: none;
+}
+body main nav div p a:hover{
+    color: red;
+}
+@media screen and (max-width: 1024px){
+    body main nav div:last-child{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.5em;
+    }
+    body main section div:nth-child(2) p{
+        display: flex;
+        font-size: 0.4em;
+        margin-top: -0.0rem;
+    }
+}
+body main section{
+    display: flex;
+    flex-direction: column;
+    border: var(--border-box) solid white;
+    background-color: aliceblue;
+    width: auto;
+    height: 80vw;
+    margin-top: 1vh;
+}
+body main section div:first-child {
+    border: var(--border-box) solid black;
+    width: 90%;
+    margin-left: 5%;
+    height: 15vw;
+    margin-top: 0.5em;
+}
+body main section div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--font-size-box);
+    border: var(--border-box) solid black;
+    width: 90%;
+    margin-left: 5%;
+    height: 10vw;
+    margin-top: 0.5em;
+}
+body main article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 900;
+}
+body main div:last-child{
+    margin-left: 5%;
+    border: 2px solid black;
+    width: 90%;
+    height: 16.5vw;
+    display: flex;
+    justify-content: center;
+}
+body main div:last-child  div:last-child{
+    border: var(--border-box) solid red;
+    height: 15vw;
+}
+body main div:last-child  div:first-child{
+    margin-left: -0.01em;
+}
+body main div:last-child p{
+    font-size: 1.6rem;
+    text-align: justify;
 }
