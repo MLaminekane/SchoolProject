@@ -58,6 +58,24 @@ main header nav:last-child{
     margin: 0.5rem;
     height: 15vh;
 }
+main section div:nth-child(2) div div section{
+    display: flex;
+}
+main section div:nth-child(2) div div section:nth-child(1){
+    border: 1px solid black;
+    margin: 0.5rem;
+    height: 10vh;
+    width: 30vh;
+}
+main section div:nth-child(2) div div section:nth-child(2){
+    border: 1px solid black;
+    margin: 0.5rem;
+    height: 10vh;
+    width: 30vh;
+}
+
+
+
 
 
 
@@ -93,15 +111,7 @@ main section div:nth-child(3){
     margin: auto;
     margin: 0.5rem;
 }
-main section div:nth-child(2){
-    display: flex;
-    justify-content: space-evenly;
-}
-main section div:nth-child(2) div section:nth-child(1){
-    margin: 0.5rem;
-    height: 5%;
-    width: 10vh;
-}
+
 
 
 
