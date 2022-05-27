@@ -1,0 +1,13 @@
+.tableau{
+    border-collapse: collapse;
+    margin-top: 10%;
+    min-width: 400px;
+    width: auto;
+    border: 1px solid midnightblue;
+}
+thead tr{
+    text-align: center;
+}
+th, td{
+    padding: 5px 5px ;
+}
