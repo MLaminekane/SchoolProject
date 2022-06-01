@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.entete{
+    display: flex;
+    flex-direction: column;
+}
+.fst-bar, .sec-bar{
+    border: 1px solid black;
+    width: 100%;
+}
+.fst-bar{
+    background-color: yellow;
+    height: 2vw;
+}
+.sec-bar{
+    display: flex;
+    height: 7vw;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+.menu, li,a{
+    display: flex;
+    list-style-type: none;
+    color: #a9a7a7;
+    font-size: 12px;
+    margin: 6px;
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    margin-left: 5%;
+    align-items: center;
+}
+.menu li{
+    position: relative;
+}
+.menu li,i{
+    display: flex;
+    list-style-type: none;
+    color: #a9a7a7;
+    font-size: 12px;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.material-icons{
+    margin-top: -1vh;
+    list-style: none;
+}
+
+.sche-drop:hover{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+.sche-drop ul{
+    display: block;
+    margin: 10px;
+}
+.sche-drop , ul,li{
+    display: none;
+}
+.sche-drop ul li{
+    width: 100px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+} 
