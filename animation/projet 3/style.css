@@ -1,0 +1,11 @@
+p{
+    background: url(photo_2022-06-02_12-18-20.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+body{
+    background: black;
+}
