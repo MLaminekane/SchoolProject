@@ -9,3 +9,10 @@ p{
 body{
     background: black;
 }
+h1{
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient( 43deg, #4158D0 0%,#C850C0 46%, #ffcc70 100% );
+    -webkit-background-clip: text;
+    color: transparent;
+}
