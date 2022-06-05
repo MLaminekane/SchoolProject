@@ -13,13 +13,13 @@ body, .fst-bar{
 body{
     margin: 0;
 }
-.header, .login-bar, .fst-bar, .bouton-1, .first-bloc{
+.header, .login-bar, .fst-bar, .bouton-1, .first-bloc, .fst-btn-pg-2, .sec-btn-pg-2{
     display: var(--display);
 }
 .fab, a, i, .fa-circle{
     color: var(--color);
 }
-.menu, .first-bloc, .bouton-1{
+.menu, .first-bloc, .bouton-1, .fst-btn-pg-2, .sec-btn-pg-2{
     justify-content: var(--content);
 }
 header{
@@ -121,4 +121,76 @@ a, i, ul{
     width: 40vh;
     align-items: center;
     color: white;
+}
+
+/* page 2 */
+.content-pg-2{
+    display: flex;
+    justify-content: var(--content);
+    flex-direction: column;
+}
+.title-pg-2, .ss-title-pg-2{
+    font-size: 30px;
+    font-weight: 1900;
+    text-align: center;
+    line-height: 25vh;
+    color: #666666;
+
+}
+.ss-title-pg-2{
+    margin-top: -25vh;
+}.para{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #666666;
+}
+.link-here{
+    color: #666666;
+    text-align: center;
+}
+.we-are{
+     color: red;
+     text-align: center;
+}
+.time{
+    color: #666666;
+    text-align: center;
+}
+.opening{
+    color: #666666;
+    font-style: italic;
+    text-align: center;
+}
+.image-pg-2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4vh;
+}
+.fst-btn-pg-2, .sec-btn-pg-2{
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #c60000;
+    height: 6vh;
+    width: 40vh;
+    align-items: center;
+    color: white;
+}
+#download{
+    display: flex;
+    justify-content: center;
+}
+.ready{
+    text-align: center;
+    font-size: 30px;
+    color: #666666;
+}
+.register{
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.sec-btn-pg-2{
+    width: 20vh;
 }
