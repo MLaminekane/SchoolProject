@@ -51,7 +51,7 @@ a, i, ul{
     display: var(--display);
 }
 .sec-bar{
-    border: var(--border-box);
+    border: var(--border-box) transparent;
     color: white;
     height: 13vh;
     background-color: #333;
@@ -124,22 +124,24 @@ a, i, ul{
 }
 
 /* page 2 */
-.content-pg-2{
+.content-pg-2, .content-pg-3{
     display: flex;
     justify-content: var(--content);
     flex-direction: column;
+}
+.title-pg-2{
+    margin-top: 15vh;
 }
 .title-pg-2, .ss-title-pg-2{
     font-size: 30px;
     font-weight: 1900;
     text-align: center;
-    line-height: 25vh;
     color: #666666;
-
 }
 .ss-title-pg-2{
-    margin-top: -25vh;
-}.para{
+    margin-top: -5vh;
+}
+.para{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -193,4 +195,32 @@ a, i, ul{
 }
 .sec-btn-pg-2{
     width: 20vh;
+}
+
+/* page 3 */
+
+.font-img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.img-all{
+    width: 20vh;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foot-text{
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.abso-title{
+    font-size: 28px;
+    color: #666666;
+    font-weight: 1000;
+}
+.small-text{
+    color: #666666;
 }
