@@ -191,6 +191,84 @@ a, ul{
     width: 43vh;
 }
 
+/* page instructors//////////////////////////// */
+
+.title-inst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #b82b35;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 13vh;
+}
+h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+h5{
+    color: #666666;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+}
+.boite{
+    width: 30vh;
+    border: 3px solid #b82b35 ;
+    height: 1vh;
+}
+.person{
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+    margin-top: -1vh;
+}
+.p-1, .p-2, .p-3, .p-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vh;
+    height: 65vh;
+    margin: 2vh;
+    color: #666666;
+    text-align: center;
+    line-height: 20px;
+}
+.img-person{
+    border-radius: 20vh;
+    height: 15rem;
+    width: auto;
+    margin: 1vh;
+}
+.fa-envelope{
+    margin: 3px;
+}
+.link-person{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: -17px;
+}
+.ps-1{
+    margin-top: -10rem;
+}
+article{
+    font-size: 18px;
+    color: #666666;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    line-height: 31.68px;
+}
+.article-2, .article-3{
+    margin-top: 1rem;
+}
+
 /* pied de page//////////////////////////// */
 footer{
     display: flex;
@@ -234,7 +312,6 @@ footer{
 .asd{
     margin-top: 6vh;
     color: #cacaca;
-
 }
 #col{
     color: #cacaca;
