@@ -50,6 +50,7 @@ a, ul{
 .menu-bar{
     background: #0a0a0adf;
     text-align: center;
+    z-index: 1;
 }
 .menu-bar ul{
     display: inline-flex;
@@ -74,6 +75,7 @@ a, ul{
     position: absolute;
     margin-top:15px;
     background-color: #0a0a0ad1;
+    z-index: 1;
 }
 .menu-bar ul li:hover .nav-menu-1 ul{
     display: block;
@@ -127,7 +129,6 @@ a, ul{
 .first-bloc{
     display: var(--display);
     justify-content: var(--content);
-
 }
 .image-1, .image-2, .image-3, .image-4{
     border: var(--border-box) transparent;
@@ -269,6 +270,248 @@ article{
     margin-top: 1rem;
 }
 
+/* krav belt page//////////////////////////// */
+.large-fd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    background-image: linear-gradient( rgba(0,0,0,0.6) ,rgba(0,0,0,0.7) ), url(images/cropped-DSC01352-12.jpg);
+    margin-top: -14vh;
+
+}
+.title-km{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+.reading{
+    padding-top: 5%;
+    text-align: justify;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.titre-km{
+    text-align: left;
+    margin-left: 16%;
+    font-weight: 600;
+}
+
+.galerie{
+    border: 1px solid transparent;
+    width: 70%;
+    margin-left: 15%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.gl-1, .gl-2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    width: 48%;
+    margin: 2vh;
+}
+.gl-title{
+    color: #111111;
+    font-size: 24px;
+    margin-top: 1vh;
+}
+.gl-st{
+    margin-top: -0.5vh;
+    color: #666;
+    font-size: 16px;
+}
+.text-btn{
+    border: 1px solid transparent;
+    width: 70%;
+    margin-left: 15%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.txt-btn, .btn-txt{
+    border: 1px solid transparent; ;
+    width: 75%;
+    margin: 1vh;
+}
+.btn-txt{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666;
+    width: 20rem;
+    background-color: #fafafa;
+    height: 6vh;
+}
+.last-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-left: 16%;
+    margin-right: 16%;
+    background-image: linear-gradient( rgba(0,0,0,0.6) ,rgba(0,0,0,0.7) ), url(images/slide5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lst-img-title{
+    color: white;
+    font-size: 30px;
+}
+.lst-img-st{
+    color: #fff;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+.btn-km{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid #666;
+    width: 20rem;
+    background-color: red;
+    height: 8vh;
+    border-radius: 4px;
+}
+.btn-km a{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* online page//////////////////////////// */
+.online-title{
+    margin-left: 16%;
+    margin-right: 16%;
+    text-align: center;
+    font-size: 36px;
+    color: #666;
+    font-weight: 600;
+}
+.online-title-ss{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    line-height: 4vh;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 45vh;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.prt-1, .prt-2, .prt-3{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 4vh;
+    height: 405h;
+}
+.prt-ss{
+    font-size: 14.44;
+    color: #666;
+}
+.pricing{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 100vh;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.pricing-1{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 2vh;
+}
+.lvl-1{
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.lvl-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2e2c2c;
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+.prix{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.lvl-3{
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    line-height: 1vh;
+}
+.smoke{
+    margin-left: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.258);
+    width: 80%;
+}
+.sign-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+    color: white;
+}
+.link-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ft-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-affiche{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 15vh;
+    background-color: #f7f9fb;
+    background-size: cover;
+
+}
+.affiche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
 /* pied de page//////////////////////////// */
 footer{
     display: flex;
