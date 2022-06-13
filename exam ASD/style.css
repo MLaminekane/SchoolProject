@@ -2,10 +2,14 @@
 :root{
     --border-box: 1px solid;
     --display: flex;
+    --align: center;
     --color: black;
     --widht: auto;
     --content: center;
     --align: center;
+    --flex-col: column;
+    --white: white;
+    --col-box: #666666;
 }
 *{
     box-sizing: border-box;
@@ -25,8 +29,8 @@ body{
 a{
     color: var(--color);
 }
-header{
-    flex-direction: column;
+header, .section1{
+    flex-direction: var(--flex-col);
 }
 .fst-bar{
     background: #ffc104;
@@ -87,22 +91,22 @@ a, ul{
     height: 1px;
     width: 1px;
 }
-
 .section1{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: var(--content);
     align-items: center;
     margin-top: 9%;
 }
-.titre{
+.titre,.ss-title{
     color: white;
+
+}
+.titre{
     font-size: 50px;
     letter-spacing: 2px;
     font-family: Roboto;
 }
 .ss-title{
-    color: white;
     margin-top: -12px;
     letter-spacing: 3px;
     font-family: Roboto;
@@ -154,7 +158,6 @@ a, ul{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .text-1{
     border: var(--border-box) transparent;
     width: 30rem;
@@ -191,9 +194,7 @@ a, ul{
     text-align: center;
     width: 43vh;
 }
-
 /* page instructors//////////////////////////// */
-
 .title-inst{
     display: flex;
     flex-direction: column;
@@ -269,7 +270,6 @@ article{
 .article-2, .article-3{
     margin-top: 1rem;
 }
-
 /* krav belt page//////////////////////////// */
 .large-fd{
     display: flex;
@@ -278,13 +278,11 @@ article{
     height: 45vh;
     background-image: linear-gradient( rgba(0,0,0,0.6) ,rgba(0,0,0,0.7) ), url(images/cropped-DSC01352-12.jpg);
     margin-top: -14vh;
-
 }
 .title-km{
     color: white;
     font-size: 30px;
     letter-spacing: 4px;
-
 }
 .reading{
     padding-top: 5%;
@@ -502,7 +500,6 @@ article{
     height: 15vh;
     background-color: #f7f9fb;
     background-size: cover;
-
 }
 .affiche{
     display: flex;
@@ -631,7 +628,6 @@ footer{
     display: flex;
     flex-direction: column;
     line-height: 30PX;
-
 }
 .p-all{
     color: white;

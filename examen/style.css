@@ -1,0 +1,137 @@
+:root{
+    --border-box: 1px solid;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloc-1{
+    display: flex;
+}
+.box, .boite-ext, .boite-int{
+    border: var(--border-box);
+}
+.box{
+    width: 2vh;
+    height: 3vh;
+    background-color: #000;
+}
+.bloc_{
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+    margin-left: 1vh;
+}
+.boite, .boite-ext, .form1, .btn, .precedent, .suivant, .boutton1, .nav{
+    display: flex;
+}
+.boite-ext{
+    align-items: center;
+    flex-direction: column;
+    width: 50vh;
+    border-radius: 25px;
+    height: 60vh;
+    color: maroon;
+    margin: 2vh;
+    background-color: rgb(128, 79, 0);
+}
+.boite-int{
+    margin-top: 1vh;
+    width: 90%;
+    height: 30vh;
+    border-radius: 20px;
+    background: url(pexels-jess-bailey-designs-788946.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form1{
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    height: 92vh;
+    width: 60vh;
+    margin: auto;
+    border-radius: 10px;
+    float: left;
+    margin-top: 15vh;
+}
+.nom, .prix{
+    color: #fff;
+    font-size: 30px;
+    font-family: 700;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 6vh;
+    background-color: white;
+    border-radius: 20px;
+}
+a{
+    color: rgb(128, 79, 0);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav{
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.precedent, .suivant{
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 30vh;
+    height: 8vh;
+    background-color: #000;
+    color: #fff;
+}
+.precedent{
+    margin-left: -10vh;
+}
+.suivant{
+    margin-left: 74vh;
+}
+input{
+    border-color: rgba(78, 52, 10, 0.918);
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: -5px;
+    height: 4vh;
+    color: rgb(42, 42, 84);
+}
+div p{
+    margin: 10px;
+    font-size: 15px;
+}
+.boutton1{
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    border: 1px solid rgb(42, 42, 84);
+    border-radius: 20px;
+    height: 30px ;
+    width: 150px;
+    text-decoration: none;
+}
+.boutton1 a{
+    text-align: center;
+    background-color: rgb(42, 42, 84);
+    color: white;
+}
+.btn2{
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(42, 42, 84);
+    font-weight: 800;
+    margin: 10px;
+}
+p{
+    color: rgb(41, 41, 143);
+    font-size: 20px;
+    font-weight: 700;
+}
